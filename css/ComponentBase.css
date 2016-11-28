@@ -1,0 +1,8 @@
+.con_compoent{
+	background-size: 100%;
+	background-repeat: no-repeat;
+	position:absolute;
+}
+.context{
+	overflow: hidden;
+}

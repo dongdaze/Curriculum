@@ -1,0 +1,47 @@
+html{
+	font-size: 62.5%;
+}
+.con_compoentbar .line{
+	width: 100%;
+	height:3rem;
+	margin-bottom:1.5rem;
+	line-height:1rem;
+}
+
+.con_compoentbar .name{
+	width:6.3rem;
+	height:100%;
+	font-size:1.6rem;
+	float:left;	
+	color:#666;
+	font-weight:bold;
+}
+
+.con_compoentbar .rate{
+	height:1.5rem;
+	width: 100%;
+	float:left;
+	margin-left:1rem;
+	position: relative;
+}
+
+.con_compoentbar .bg{
+	width: 0%;
+	height: 100%;
+	background: #93e0ff;
+	position: absolute;
+	border-radius:.4rem;
+	box-shadow:1px 1px .5px #333;		
+	left:0;
+	top:0;
+}
+
+.con_compoentbar_load .rate .bg{
+	-webkit-transition:all 1s .6s;
+	width: 100%;
+}
+
+.con_compoentbar_leave .rate .bg{
+	width: 0%;
+}
+
